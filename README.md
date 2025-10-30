@@ -11,7 +11,8 @@ The dryer already included:
 - 230 VAC heater  
 
 All schematics are in the **/Docs** folder, and photos are in **/Photos**.  
-I could have reused the original resistive temperature sensor, but I didn’t notice it at first.
+I could have reused the original resistive temperature sensor, but I didn’t notice it at first.<br>
+Code is prepared in PlatformIO (VSCode extension) and you can find it in **/Dryer arduino/src**.
 
 ---
 
@@ -20,7 +21,6 @@ I could have reused the original resistive temperature sensor, but I didn’t no
 - 2× Songle SRD-05VDC-SL-C 5-pin 10 A / 5 V relay,
 - 230 V → 5 V / 700 mA AC–DC converter,
 - 2× 2N2222 NPN transistor (0.8 A, TO-92),
-- 0.96" OLED display (SSD1306, I²C),
-- 4 buttons,
+- 0.96" OLED display (SSD1306, I²C) 4 buttons,
 - DS18B20 OneWire temperature sensor,
 - fuse form original pcb.
