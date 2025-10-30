@@ -1,4 +1,4 @@
-# Fixing-my-dryer
+# DryerControlUnit
 
 ## Description
 The electronics of the **WARTMANN WM-2006 DH** food dryer (used for mushrooms, fruits, etc.) got wet and rusted.  
