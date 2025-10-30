@@ -1,8 +1,26 @@
 # Fixing-my-dryer
 
-arduino nano 3.0 - 18,50 zl
-Przekaźnik montażowy Songle SRD-05VDC-SL-C 5 pin 10A 5V - 4,50 zl
-Przetwornica 230V do 5V 700mA AC-DC - 9,50zl
-2N2222 NPN 0.8A TO92 - 2,70 zł
-Wyświetlacz OLED 0.96 SSD1306 I2C biały z 4 przyciskami  - 25,90 zl
-Układ scalony DS18B20 czujnik temperatury - 8,50 zł
+## Description
+The electronics of the **WARTMANN WM-2006 DH** food dryer (used for mushrooms, fruits, etc.) got wet and rusted.  
+I decided to repair it and share how I did it.
+
+The dryer already included:
+- 230 VAC power input socket  
+- power switch  
+- 230 VAC fan  
+- 230 VAC heater  
+
+All schematics are in the **/Docs** folder, and photos are in **/Photos**.  
+I could have reused the original resistive temperature sensor, but I didn’t notice it at first.
+
+---
+
+## Bill of Materials (BOM)
+- Arduino Nano 3.0,
+- 2× Songle SRD-05VDC-SL-C 5-pin 10 A / 5 V relay,
+- 230 V → 5 V / 700 mA AC–DC converter,
+- 2× 2N2222 NPN transistor (0.8 A, TO-92),
+- 0.96" OLED display (SSD1306, I²C),
+- 4 buttons,
+- DS18B20 OneWire temperature sensor,
+- fuse form original pcb.
